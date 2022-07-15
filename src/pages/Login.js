@@ -20,6 +20,7 @@ export const Login = () => {
             type="email"
             onChange={(e) => setEmail(e.target.value)}
             value={email}
+            autoComplete="current-email"
           />
         </label>
         <label>
@@ -29,6 +30,7 @@ export const Login = () => {
             type="password"
             onChange={(e) => setPassword(e.target.value)}
             value={password}
+            autoComplete="current-password"
           />
         </label>
         <button>log in</button>
